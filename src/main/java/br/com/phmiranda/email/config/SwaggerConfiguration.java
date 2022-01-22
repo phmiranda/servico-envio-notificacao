@@ -1,8 +1,8 @@
 /*
  * Author: phmiranda
  * Project: email
- * Task Number: HU-XXX
- * Description: N/A
+ * Task Number: SRC-177
+ * Description: DESENVOLVIMENTO DO SERVIÇO DE NOTIFICAÇÃO ENVIADO VIA E-MAIL (GMAIL)
  * Date: 21/01/2022
  */
 

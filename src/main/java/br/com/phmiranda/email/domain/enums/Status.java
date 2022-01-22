@@ -6,11 +6,10 @@
  * Date: 21/01/2022
  */
 
-package br.com.phmiranda.email.config;
+package br.com.phmiranda.email.domain.enums;
 
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class AuthConfiguration {
-
+public enum Status {
+    NOTIFICACAO_ENVIADA,
+    NOTIFICACAO_NAO_ENVIADA,
+    NOTIFICACAO_EM_PROCESSAMENTO
 }
