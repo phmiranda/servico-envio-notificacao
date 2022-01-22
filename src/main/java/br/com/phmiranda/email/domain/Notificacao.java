@@ -13,6 +13,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import javax.persistence.Column;
+import javax.persistence.Enumerated;
+import javax.persistence.EnumType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -48,5 +50,6 @@ public class Notificacao {
     private LocalDateTime dataEnvio;
 
     @Column(name = "status")
+    @Enumerated(EnumType.STRING)
     private Status status = Status.NOTIFICACAO_EM_PROCESSAMENTO;
 }
